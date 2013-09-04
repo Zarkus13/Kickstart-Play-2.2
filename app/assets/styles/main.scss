@@ -1,0 +1,19 @@
+@import "foundation/settings";
+@import "foundation/normalize";
+@import "foundation/foundation";
+@import "compass/css3";
+@import "global";
+
+html { height: 100%; }
+body {
+    height: 100%;
+
+    & > .row { height: 100%; }
+}
+
+#Corps {
+    height: 100%;
+    padding: $column-gutter / 2;
+}
+
+@import "growls";

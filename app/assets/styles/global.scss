@@ -1,0 +1,10 @@
+@import "foundation/settings";
+@import "foundation/foundation";
+
+.noBg { background: transparent; }
+
+.primary { color: $primary-color; }
+.primaryBg { background-color: $primary-color; }
+
+.display-table { width: 100%; height: 100%; display: table; }
+.table-cell-centered { display: table-cell; vertical-align: middle; }
